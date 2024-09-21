@@ -6,10 +6,7 @@ import PackageDescription
 let package = Package(
   name: "NetworkImage",
   platforms: [
-    .macOS(.v11),
-    .iOS(.v11),
-    .tvOS(.v14),
-    .watchOS(.v7),
+    .iOS(.v11)
   ],
   products: [
     .library(name: "NetworkImage", targets: ["NetworkImage"])
