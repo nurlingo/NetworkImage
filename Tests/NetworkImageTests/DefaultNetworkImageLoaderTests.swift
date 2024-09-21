@@ -2,6 +2,7 @@ import XCTest
 
 @testable import NetworkImage
 
+@available(iOS 14.0, *)
 final class DefaultNetworkImageLoaderTests: XCTestCase {
   func testImageLoad() async throws {
     // given
